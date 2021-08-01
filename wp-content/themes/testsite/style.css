@@ -1,0 +1,102 @@
+/*
+Theme Name: Test Site Sample
+Author: Philip Rasmusson 
+Description: Just trying out WOrdPress Theme creation */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero-cta {
+  margin-top: 3rem;
+}
+
+.hero-cta .elementor-icon-box-wrapper {
+  position: relative;
+  top: -3rem;
+}
+
+.strong-view.wpmtst-modern .wpmtst-testimonial-content:before, .strong-view.wpmtst-modern .wpmtst-testimonial-content:after {
+  background: #fff !important;
+}
+
+.strong-view.wpmtst-modern .wpmtst-testimonial-content p:first-of-type, .strong-view.wpmtst-modern .wpmtst-testimonial-inner {
+  color: #f1f1f1;
+  margin: 2rem auto !important;
+}
+
+.testimonial-name, .testimonial-company {
+  font-weight: 400;
+  font-style: italic;
+  margin: 2rem auto;
+}
+
+.homepage-services {
+  position: relative;
+  min-height: 230px;
+  text-align: center;
+  color: #fff;
+  margin: 2rem auto;
+}
+
+.homepage-services .content {
+  position: relative;
+  top: -40px;
+}
+
+.homepage-services .icon {
+  background-color: var( --e-global-color-accent);
+  fill: #fff;
+  color: #fff;
+  font-size: 32px;
+  padding: 0.7em;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  width: 80px;
+}
+
+.practice-area-box {
+  background-color: var( --e-global-color-primary);
+  padding: 0 25px;
+  margin: 2rem 15px;
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.practice-area-box .content .title {
+  font-weight: 400;
+}
+
+.practice-area-box .content .description {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.single-coffee-making-areas .content .elementor-column-wrap {
+  /* padding: 10px; */
+  padding: 0 2rem 0 2rem;
+}
+
+.single-coffee-making-areas .content h1 {
+  color: var( --e-global-color-primary);
+  font-size: 2rem;
+}
+
+.single-coffee-making-areas .content h2 {
+  font-size: 1.5rem;
+}
+
+.single-coffee-making-areas .content a {
+  text-decoration: none;
+}
+
+p {
+  font-weight: 300;
+}
+
+/* .elementor-shortcode a {
+  color: #454545 !important
+} */
