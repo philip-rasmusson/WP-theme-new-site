@@ -39,6 +39,7 @@ add_action('wp_enqueue_scripts', 'scripts_header');
 
 // Shortcodes
 require_once('shortcodes/coffee-making-areas.php');
+require_once('shortcodes/team.php');
 
 // function wpb_custom_logo() {
 //   echo '

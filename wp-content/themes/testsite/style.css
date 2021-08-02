@@ -97,6 +97,37 @@ p {
   font-weight: 300;
 }
 
+.staff .image-wrapper {
+  background-color: black;
+}
+
+.staff .image-wrapper img {
+  width: 100%;
+  height: auto;
+  transition: opacity .4s;
+}
+
+.staff .image-wrapper a:hover>img {
+  opacity: .8;
+}
+
+.staff .team-member-info h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #f1f1f1;
+}
+
+.staff .team-member-info h3 {
+  margin: 0 0 .5rem 0;
+  font-family: 'Roboto' sans-serif;
+  font-size: .8rem;
+  border-bottom: #454545 solid 1px;
+}
+
+.staff .elementor-column-wrap {
+  margin: 3rem;
+}
+
 /* .elementor-shortcode a {
   color: #454545 !important
 } */
